@@ -20,10 +20,10 @@ PODS:
     - BloodMagic/Core
   - BloodMagic/Preference (1.0.0):
     - BloodMagic/Core
-  - Crashlytics (3.1.0)
-  - Fabric (1.2.8):
-    - Fabric/Base (= 1.2.8)
-  - Fabric/Base (1.2.8)
+  - Crashlytics (3.3.1)
+  - Fabric (1.5.1):
+    - Fabric/Base (= 1.5.1)
+  - Fabric/Base (1.5.1)
   - libextobjc (0.4.1):
     - libextobjc/EXTADT (= 0.4.1)
     - libextobjc/EXTConcreteProtocol (= 0.4.1)
@@ -87,8 +87,8 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   BloodMagic: 231ba1db75ceb3e5b8c2c888dcefb235b2b8dec6
-  Crashlytics: 93e2f86363d53c002c6366a9d87e41f2eaee87c3
-  Fabric: a9eabe53915e9f1db55a84dd2838737928675878
+  Crashlytics: 0e61bdda9def51f1e99720f804eebe94865442b2
+  Fabric: 03c3b3fe77e11a2bc31421b989a9c7adaa4779a5
   libextobjc: a650fc1bf489a3d3a9bc2e621efa3e1006fc5471
   PureLayout: 270dfee2236f697ab1d5e2771c2e5c248495fa0d
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
