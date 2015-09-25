@@ -1,0 +1,99 @@
+PODS:
+  - BloodMagic (1.0.0):
+    - BloodMagic/Core (= 1.0.0)
+    - BloodMagic/Final (= 1.0.0)
+    - BloodMagic/Initializers (= 1.0.0)
+    - BloodMagic/Injectable (= 1.0.0)
+    - BloodMagic/Lazy (= 1.0.0)
+    - BloodMagic/Partial (= 1.0.0)
+    - BloodMagic/Preference (= 1.0.0)
+  - BloodMagic/Core (1.0.0)
+  - BloodMagic/Final (1.0.0):
+    - BloodMagic/Core
+  - BloodMagic/Initializers (1.0.0):
+    - BloodMagic/Core
+  - BloodMagic/Injectable (1.0.0):
+    - BloodMagic/Initializers
+  - BloodMagic/Lazy (1.0.0):
+    - BloodMagic/Core
+  - BloodMagic/Partial (1.0.0):
+    - BloodMagic/Core
+  - BloodMagic/Preference (1.0.0):
+    - BloodMagic/Core
+  - Crashlytics (3.1.0)
+  - Fabric (1.2.8):
+    - Fabric/Base (= 1.2.8)
+  - Fabric/Base (1.2.8)
+  - libextobjc (0.4.1):
+    - libextobjc/EXTADT (= 0.4.1)
+    - libextobjc/EXTConcreteProtocol (= 0.4.1)
+    - libextobjc/EXTKeyPathCoding (= 0.4.1)
+    - libextobjc/EXTNil (= 0.4.1)
+    - libextobjc/EXTSafeCategory (= 0.4.1)
+    - libextobjc/EXTScope (= 0.4.1)
+    - libextobjc/EXTSelectorChecking (= 0.4.1)
+    - libextobjc/EXTSynthesize (= 0.4.1)
+    - libextobjc/NSInvocation+EXT (= 0.4.1)
+    - libextobjc/NSMethodSignature+EXT (= 0.4.1)
+    - libextobjc/RuntimeExtensions (= 0.4.1)
+    - libextobjc/UmbrellaHeader (= 0.4.1)
+  - libextobjc/EXTADT (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTConcreteProtocol (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTKeyPathCoding (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTNil (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSafeCategory (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTScope (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSelectorChecking (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSynthesize (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/NSInvocation+EXT (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/NSMethodSignature+EXT (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/RuntimeExtensions (0.4.1)
+  - libextobjc/UmbrellaHeader (0.4.1)
+  - PureLayout (3.0.0)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - SHPKeyboardAwareness (2.1.1):
+    - ReactiveCocoa (~> 2.5.0)
+  - SVPullToRefresh (0.4.1)
+
+DEPENDENCIES:
+  - BloodMagic
+  - Crashlytics
+  - Fabric
+  - libextobjc
+  - PureLayout
+  - ReactiveCocoa (~> 2.5)
+  - SDWebImage (~> 3.7)
+  - SHPKeyboardAwareness (~> 2.1)
+  - SVPullToRefresh
+
+SPEC CHECKSUMS:
+  BloodMagic: 231ba1db75ceb3e5b8c2c888dcefb235b2b8dec6
+  Crashlytics: 93e2f86363d53c002c6366a9d87e41f2eaee87c3
+  Fabric: a9eabe53915e9f1db55a84dd2838737928675878
+  libextobjc: a650fc1bf489a3d3a9bc2e621efa3e1006fc5471
+  PureLayout: 270dfee2236f697ab1d5e2771c2e5c248495fa0d
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  SHPKeyboardAwareness: f4214d128f0711d1e50cce5d97f89af3b6099ed7
+  SVPullToRefresh: ba2e718695a43253d8bea6852d2960097dc15d8c
+
+COCOAPODS: 0.38.2
