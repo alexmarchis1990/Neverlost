@@ -417,7 +417,7 @@
 				TargetAttributes = {
 					AD9015501B871E4600924AD9 = {
 						CreatedOnToolsVersion = 6.4;
-						DevelopmentTeam = 8776PAKJ28;
+						DevelopmentTeam = 79QKZ5K38S;
 					};
 					AD9015691B871E4600924AD9 = {
 						CreatedOnToolsVersion = 6.4;
@@ -644,7 +644,8 @@
 			baseConfigurationReference = D94BD6EDED911B28EB670A88 /* Pods-NeverLost.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ariel Katorza (M2W8CPE3VX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ariel Katorza (M2W8CPE3VX)";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -656,7 +657,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aknn.neverlost;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "7a9ab1bc-ce2e-4f5d-a2e4-ca5da55c6c95";
+				PROVISIONING_PROFILE = "cef4d3d7-5edd-4d86-9ca8-211e3b8f34ae";
 			};
 			name = Debug;
 		};
@@ -665,7 +666,8 @@
 			baseConfigurationReference = FE08ABAFCA302A3689E8E970 /* Pods-NeverLost.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Damian O'Toole (8776PAKJ28)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ariel Katorza (79QKZ5K38S)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ariel Katorza (79QKZ5K38S)";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -677,7 +679,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aknn.neverlost;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5b31e423-5270-4dd5-98b0-5c281ba3b500";
+				PROVISIONING_PROFILE = "e506f7ef-c4c5-401a-a4c2-bae70d0834a0";
 			};
 			name = Release;
 		};
