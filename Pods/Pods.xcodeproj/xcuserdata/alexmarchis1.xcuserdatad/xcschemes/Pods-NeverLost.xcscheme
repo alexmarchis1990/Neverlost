@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FAAFBE26209EBB3638B37EC7"
+               BlueprintIdentifier = "F211559D1488D2B47CA85E7E"
                BuildableName = "libPods-NeverLost.a"
                BlueprintName = "Pods-NeverLost"
                ReferencedContainer = "container:Pods.xcodeproj">

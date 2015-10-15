@@ -86,20 +86,23 @@ static const CGFloat kFilterBtnSize = 35.0f;
     
     for (int i =0; i<imageNames.count; i++) {
         
-        UIButton *btn = [UIButton buttonWithType:UIButtonTypeSystem];
-        [btn setImage:[UIImage imageNamed:imageNames[i]] forState:UIControlStateNormal];
-        btn.tag = i;
-        btn.tintColor       = [UIColor whiteColor];
-        [arr addObject:btn];
-        
+        UIButton *btn;
+
         if (i != self.customTabIndex) {
+            btn = [UIButton buttonWithType:UIButtonTypeSystem];
             btn.backgroundColor = [UIColor appDarkBlue];
+            btn.tintColor       = [UIColor appLightGray];
             
             [btn addTarget:self action:@selector(tapTabBarButton:) forControlEvents:UIControlEventTouchUpInside];
         }
         else {
-            btn.backgroundColor = [UIColor appRed];
+            btn = [UIButton buttonWithType:UIButtonTypeCustom];
+            btn.backgroundColor = [UIColor appDarkBlue];
         }
+        
+        [btn setImage:[UIImage imageNamed:imageNames[i]] forState:UIControlStateNormal];
+        btn.tag = i;
+        [arr addObject:btn];
     }
     
     self.btns = arr;
@@ -161,11 +164,11 @@ static const CGFloat kFilterBtnSize = 35.0f;
 - (void)setSelectedTab:(NSInteger)selectedTab {
     
     UIButton *previousBtn = self.btns[self.selectedTab];
-    previousBtn.tintColor = [UIColor whiteColor];
+    previousBtn.tintColor = [UIColor appLightGray];
     previousBtn.backgroundColor = [UIColor appDarkBlue];
     
     UIButton *newBtn = self.btns[selectedTab];
-    newBtn.tintColor = [UIColor appLightBlue];
+    newBtn.tintColor = [UIColor whiteColor];
     newBtn.backgroundColor = [UIColor appDarkestBlue];
 
     NSInteger workingIndex = selectedTab < self.customTabIndex ? selectedTab : selectedTab - 1;

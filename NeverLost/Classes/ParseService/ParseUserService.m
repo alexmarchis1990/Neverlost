@@ -90,7 +90,7 @@ static NSString *PROPERTY_USER_COUNTRY     = @"Country";
     return [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
         
         NSString *version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
-        
+#warning TEST FOR EXISTENCE FIRST
         [[PFUser currentUser] setObject:version forKey:PROPERTY_USER_APP_VERSION];
         [[PFUser currentUser] setObject:userData[FACEBOOK_FIELD_EMAIL] forKey:PROPERTY_USER_EMAIL];
         [[PFUser currentUser] setObject:userData[FACEBOOK_FIELD_NAME] forKey:PROPERTY_USER_NAME];
